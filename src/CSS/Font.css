@@ -1,5 +1,4 @@
-/* Misalnya, menggunakan font "Roboto" */
-/* Font.css */
+
 a {
     text-decoration: none;
     color: inherit;
@@ -15,7 +14,6 @@ a {
     }
     
 
-/* CSS di dalam file terpisah atau dalam komponen jika Anda menggunakan CSS Modul */
 .center-nav {
     display: flex;
     justify-content: center;
@@ -23,11 +21,11 @@ a {
   }
   
   .center-nav .nav-link {
-    color: #333; /* Warna teks default */
-    transition: color 0.2s ease-in-out; /* Efek transisi perubahan warna */
+    color: #333;
+    transition: color 0.2s ease-in-out; 
   }
   
   .center-nav .nav-link:hover {
-    color: #000; /* Warna teks saat di-hover */
+    color: #000; 
   }
   

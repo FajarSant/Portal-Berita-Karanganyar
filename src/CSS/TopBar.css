@@ -85,6 +85,11 @@
   .topsearch.open .search-box {
     height: 30px; /* Atur tinggi sesuai kebutuhan Anda */
   }
+
+  .topsearch {
+    text-align: right;
+  }
+  
   
   /* Gaya lainnya untuk tampilan yang sesuai dengan kebutuhan Anda */
   .topsearch a {

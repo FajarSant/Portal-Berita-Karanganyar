@@ -1,6 +1,8 @@
+// Topbar.js
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faYoutube, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { Link } from 'react-router-dom';
 import '../CSS/TopBar.css';
 import '../CSS/Font.css';
 
@@ -55,9 +57,9 @@ const Topbar = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://link-untuk-write-for-us" className="link-normal">
+                  <Link to="/dashboard" className="link-normal">
                     Write for us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
